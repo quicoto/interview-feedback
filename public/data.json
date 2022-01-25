@@ -20,6 +20,36 @@
     ]
   },
   {
+    "id": "7",
+    "name": "NC Values",
+    "options": [{
+        "id": 0,
+        "name": "Cultural fit",
+        "description": "We see {CANDIDATE} with cultural fit to our NC core values."
+      },
+      {
+        "id": 1,
+        "name": "N/A",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "NC Values",
+    "options": [{
+        "id": 0,
+        "name": "Cultural fit",
+        "description": "We see {CANDIDATE} with cultural fit to our NC core values."
+      },
+      {
+        "id": 1,
+        "name": "N/A",
+        "description": ""
+      }
+    ]
+  },
+  {
     "id": "1",
     "name": "HTML",
     "options": [{
@@ -43,5 +73,91 @@
         "description": "{CANDIDATE}'s has very high HTML skills (black level)."
       }
     ]
-  }]
+  },
+  {
+    "id": "2",
+    "name": "CSS",
+    "options": [{
+        "id": 0,
+        "name": "White",
+        "description": "Their CSS has major gaps."
+      },
+      {
+        "id": 1,
+        "name": "Green",
+        "description": "CSS skills match an Associate Grade (Green)."
+      },
+      {
+        "id": 2,
+        "name": "Purple",
+        "description": "CSS above average, at Purple level."
+      },
+      {
+        "id": 3,
+        "name": "Black",
+        "description": "{CANDIDATE}'s has very high CSS skills (black level)."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "JavaScript",
+    "options": [{
+        "id": 0,
+        "name": "White",
+        "description": "Their JS has major gaps."
+      },
+      {
+        "id": 1,
+        "name": "Green",
+        "description": "JavaScript skills match an Associate Grade (Green)."
+      },
+      {
+        "id": 2,
+        "name": "Purple",
+        "description": "JS above average, at Purple level."
+      },
+      {
+        "id": 3,
+        "name": "Black",
+        "description": "{CANDIDATE}'s has very high JS skills (black level)."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "JavaScript Frameworks",
+    "options": [{
+        "id": 0,
+        "name": "Vanilla experience",
+        "description": "Their JS has major gaps."
+      },
+      {
+        "id": 1,
+        "name": "Framework focused",
+        "description": "Unfortunetly {CANDIDATE}'s experience has been focused too much on a JS framework."
+      },
+      {
+        "id": 2,
+        "name": "Balanced",
+        "description": "{CANDIDATE} has a good balance between pure vanilla JavaScript and the use of frameworks."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Coaching",
+    "options": [{
+        "id": 0,
+        "name": "Needs coaching",
+        "description": "{CANDIDATE} would have to be placed in a team where they could learn the NC best practices and standards."
+      },
+      {
+        "id": 1,
+        "name": "Can work independently",
+        "description": "We see no issue placing {CANDIDATE} to work independently if needed."
+      }
+    ]
+  }
+]
 }

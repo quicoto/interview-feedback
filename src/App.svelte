@@ -34,7 +34,7 @@
 								id="{item.id}-{option.id}"
 								name="{item.id}"
 								value="{option.name}"
-								on:change={() => output[item.id] = option.description.replace('{CANDIDATE}', candidateName)}
+								on:change={() => output[item.id] = option.description}
 								>
 								<label for="{item.id}-{option.id}">{option.name}</label>
 							</div>
@@ -45,7 +45,7 @@
 		{/if}
 	</form>
 	<h2>Output</h2>
-	<div class="output">{@html output.join('<br /><br />')}</div>
+	<div class="output">{@html output.join('<br /><br />').replaceAll('{CANDIDATE}', candidateName)}</div>
 </main>
 <footer>
 	<div class="container">
