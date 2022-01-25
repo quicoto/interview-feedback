@@ -1,0 +1,47 @@
+{
+  "evaluationItems": [{
+    "id": "0",
+    "name": "English",
+    "options": [{
+        "id": 0,
+        "name": "Needs improvement",
+        "description": "{CANDIDATE} English level was hard to understand, we had communication issues."
+      },
+      {
+        "id": 1,
+        "name": "Meets Expectations",
+        "description": "{CANDIDATE} English is good, we had no problems communicating"
+      },
+      {
+        "id": 2,
+        "name": "Exceeds expectations",
+        "description": "{CANDIDATE} English are quite high."
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "HTML",
+    "options": [{
+        "id": 0,
+        "name": "White",
+        "description": "Their HTML has major gaps."
+      },
+      {
+        "id": 1,
+        "name": "Green",
+        "description": "HTML skills match an Associate Grade (Green)"
+      },
+      {
+        "id": 2,
+        "name": "Purple",
+        "description": "HTML above average, at Purple level."
+      },
+      {
+        "id": 3,
+        "name": "Black",
+        "description": "{CANDIDATE} has very high HTML skills (black level)."
+      }
+    ]
+  }]
+}
