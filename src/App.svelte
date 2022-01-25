@@ -14,7 +14,7 @@
 
 <header>
 	<div class="container">
-		<h1 class="site-title"><img src="../assets/logo.svg" alt="Logo">	 Interview Feedback Generator</h1>
+		<h1 class="site-title"><img src="./assets/logo.svg" alt="Logo">	 Interview Feedback Generator</h1>
 	</div>
 </header>
 <main class="container">
