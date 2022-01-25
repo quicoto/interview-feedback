@@ -5,17 +5,17 @@
     "options": [{
         "id": 0,
         "name": "Needs improvement",
-        "description": "{CANDIDATE} English level was hard to understand, we had communication issues."
+        "description": "{CANDIDATE}'s English level was hard to understand, we had communication issues."
       },
       {
         "id": 1,
         "name": "Meets Expectations",
-        "description": "{CANDIDATE} English is good, we had no problems communicating"
+        "description": "{CANDIDATE}'s English is good, we had no problems communicating"
       },
       {
         "id": 2,
         "name": "Exceeds expectations",
-        "description": "{CANDIDATE} English are quite high."
+        "description": "{CANDIDATE}'s English are quite high."
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "id": 3,
         "name": "Black",
-        "description": "{CANDIDATE} has very high HTML skills (black level)."
+        "description": "{CANDIDATE}'s has very high HTML skills (black level)."
       }
     ]
   }]
