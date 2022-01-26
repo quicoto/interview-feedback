@@ -36,11 +36,11 @@
   },
   {
     "id": 6,
-    "name": "NC Values",
+    "name": "Leadership",
     "options": [{
         "id": 0,
-        "name": "Cultural fit",
-        "description": "We see {CANDIDATE} with cultural fit to our NC core values."
+        "name": "FE Tech Lead",
+        "description": "We see {CANDIDATE} able to fullfil a team leading position"
       },
       {
         "id": 1,
