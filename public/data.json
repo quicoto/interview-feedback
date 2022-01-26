@@ -1,6 +1,6 @@
 {
   "evaluationItems": [{
-    "id": "0",
+    "id": 0,
     "name": "English",
     "options": [{
         "id": 0,
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "NC Values",
     "options": [{
         "id": 0,
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "NC Values",
     "options": [{
         "id": 0,
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "id": "1",
+    "id": 1,
     "name": "HTML",
     "options": [{
         "id": 0,
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "CSS",
     "options": [{
         "id": 0,
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "JavaScript",
     "options": [{
         "id": 0,
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "JavaScript Frameworks",
     "options": [{
         "id": 0,
@@ -145,7 +145,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Coaching",
     "options": [{
         "id": 0,

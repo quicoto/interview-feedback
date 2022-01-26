@@ -45,7 +45,7 @@
 		{/if}
 	</form>
 	<h2>Output</h2>
-	<div class="output">{@html output.join('<br /><br />').replaceAll('{CANDIDATE}', candidateName)}</div>
+	<div class="output">{@html output.filter(i => i).join('<br /><br />').replaceAll('{CANDIDATE}', candidateName)}</div>
 </main>
 <footer>
 	<div class="container">
