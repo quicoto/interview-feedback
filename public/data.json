@@ -1,5 +1,166 @@
 {
-  "evaluationItems": [{
+  "grades": [
+    { "id": 0, "name": "Programmer", "shortName": "P" },
+    { "id": 1, "name": "Programmer Analyst", "shortName": "PA" },
+    { "id": 2, "name": "Associate", "shortName": "A" },
+    { "id": 3, "name": "Senior Associate", "shortName": "SA" },
+    { "id": 4, "name": "Manager", "shortName": "M" },
+    { "id": 5, "name": "Senior Manager", "shortName": "SM" },
+    { "id": 6, "name": "Associate Director", "shortName": "AD" }
+  ],
+  "programmer": [{
+    "id": 0,
+    "name": "English",
+    "options": [{
+        "id": 0,
+        "name": "Needs improvement",
+        "description": "{CANDIDATE}'s English level was hard to understand, we had communication issues."
+      },
+      {
+        "id": 1,
+        "name": "Meets Expectations",
+        "description": "{CANDIDATE}'s English is good, we had no problems communicating."
+      },
+      {
+        "id": 2,
+        "name": "Exceeds expectations",
+        "description": "{CANDIDATE}'s English are quite high."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Academy candidate",
+    "options": [{
+        "id": 0,
+        "name": "Yes",
+        "description": "{CANDIDATE}'s is a good fit for the junior Academy"
+      },
+      {
+        "id": 1,
+        "name": "No fit",
+        "description": "{CANDIDATE}'s is not a good fit for the junior Academy"
+      },
+      {
+        "id": 2,
+        "name": "Too advanced",
+        "description": "{CANDIDATE}'s is too advanced for the junior Academy"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "NC Values",
+    "options": [{
+        "id": 0,
+        "name": "Cultural fit",
+        "description": "We see {CANDIDATE} with cultural fit to our NC core values."
+      },
+      {
+        "id": 1,
+        "name": "N/A",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "HTML",
+    "options": [
+      {
+        "id": 0,
+        "name": "None",
+        "description": "Close to no HTML knowledge."
+      },
+      {
+        "id": 1,
+        "name": "White",
+        "description": "Has basic HTML knowledge."
+      },
+      {
+        "id": 2,
+        "name": "Green",
+        "description": "HTML skills match an Associate Grade (Green)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "options": [
+      {
+        "id": 0,
+        "name": "None",
+        "description": "Has no CSS experience."
+      },{
+        "id": 1,
+        "name": "White",
+        "description": "Has basic CSS experience."
+      },
+      {
+        "id": 2,
+        "name": "Green",
+        "description": "CSS skills match an Associate Grade (Green)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "options": [
+      {
+        "id": 0,
+        "name": "None",
+        "description": "Missing basic JS concepts"
+      },{
+        "id": 1,
+        "name": "White",
+        "description": "Their JS has major gaps."
+      },
+      {
+        "id": 2,
+        "name": "Green",
+        "description": "JavaScript skills match an Associate Grade (Green)."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "JavaScript Frameworks",
+    "options": [{
+        "id": 0,
+        "name": "Vanilla experience",
+        "description": "Their JS has major gaps."
+      },
+      {
+        "id": 1,
+        "name": "Framework focused",
+        "description": "Unfortunetly {CANDIDATE}'s experience has been focused too much on a JS framework."
+      },
+      {
+        "id": 2,
+        "name": "Balanced",
+        "description": "{CANDIDATE} has a good balance between pure vanilla JavaScript and the use of frameworks."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Git",
+    "options": [{
+        "id": 0,
+        "name": "No",
+        "description": "No experience with Git."
+      },
+      {
+        "id": 1,
+        "name": "Yes",
+        "description": "Has worked with Git version control."
+      }
+    ]
+  }
+  ],
+  "associate": [{
     "id": 0,
     "name": "English",
     "options": [{
@@ -159,5 +320,5 @@
       }
     ]
   }
-]
+  ]
 }
