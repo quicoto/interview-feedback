@@ -193,6 +193,10 @@ form ul li {
 		width: 33%;
 	}
 
+	form ul li:nth-child(2n+1) {
+		padding-left: 2rem;
+	}
+
 	form ul li:nth-child(3n+1) {
 		padding-left: 0;
 	}
