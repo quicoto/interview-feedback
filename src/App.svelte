@@ -37,7 +37,13 @@ Front-end Software Engineer Level Technical Recommendation: ${grades.filter(i =>
 	<form>
 		<h2>Basic Information</h2>
 		<label for="candidate-name">Candidate Name</label>
-		<input type="text" id="candidate-name" name="candidate-name" bind:value={candidateName} required>
+		<input
+			type="text"
+			id="candidate-name"
+			name="candidate-name"
+			bind:value={candidateName}
+			required
+			placeholder="John">
 
 		{#if candidateName !== ''}
 		<div class="form-check form-switch">
