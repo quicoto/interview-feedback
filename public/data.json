@@ -130,7 +130,7 @@
     "options": [{
         "id": 0,
         "name": "Vanilla experience",
-        "description": "Their JS has major gaps."
+        "description": "{CANDIDATE}'s experience with JS is Vanilla. Great!"
       },
       {
         "id": 1,
@@ -291,7 +291,7 @@
     "options": [{
         "id": 0,
         "name": "Vanilla experience",
-        "description": "Their JS has major gaps."
+        "description": "{CANDIDATE}'s experience with JS is Vanilla. Great!"
       },
       {
         "id": 1,
